@@ -1,0 +1,120 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.imgcard {
+    width: 80%;
+        top: 80%;
+        transform: translate(-50%, -33%);
+        position:absolute;
+        left: 50%;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px;
+}
+
+.imglogo{
+    width: 30px;
+    height: 40px;
+}
+
+.dott{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.txtcard{
+    padding: 1.5rem;
+    text-align: center;
+    width: 20rem;
+    box-shadow:0 2px 8px rgba(171, 190, 209, 0.6);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+
+.icoimg{
+    height: 60px
+}
+
+.itemcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footimg{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 400px;
+}
+
+.footdiv{
+    position: relative;
+    width: 300px;
+}
+
+.bg{
+    background-color: #f5f7fa;
+}
+
+.textfoot{
+        text-decoration: none ;
+        font-weight: 600 ;
+        font-size: 0.875em;
+        --bs-text-opacity: 1;
+            color: rgba(var(--bs-success-rgb), var(--bs-text-opacity));
+}
+
+.footcard{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.nan{
+    display: none;
+}
+
+.logos{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 3rem;
+    
+}
+
+.alcenter{
+    display: flex;
+    align-items: center;
+}
+
+.buttonsu{
+    --bs-btn-color: #fff;
+        --bs-btn-bg: #198754;
+        --bs-btn-border-color: #198754;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #157347;
+        --bs-btn-hover-border-color: #146c43;
+        --bs-btn-focus-shadow-rgb: 60, 153, 110;
+        --bs-btn-active-color: #fff;
+        --bs-btn-padding-y: 0.2rem;
+            --bs-btn-padding-x: 0.5rem;
+            width: 200px;
+            height: 80px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+}
